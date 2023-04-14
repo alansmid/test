@@ -1,0 +1,11 @@
+<html onmouseover="Hello()" >
+  <h1 id="myText">This is just a test</h1>
+  <script>
+    let counter = 0
+    function Hello() {
+      let myText = document.getElementById("myText")
+      myText.innerText = "Counter: " + counter
+      counter++
+    }
+  </script>
+</html>
